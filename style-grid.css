@@ -1,0 +1,71 @@
+body {
+    background: blueviolet;
+}
+.grid-1 { 
+    grid-area: area1;
+    background-color: red;
+    height: 200px;
+}
+.grid-2 {
+    grid-area: area2;
+    background-color: orange;
+    height: 200px;
+}
+.grid-3 {
+    grid-area: area3;
+    background-color: lawngreen;
+    height: 200px;
+}
+.grid-4 {
+    grid-area: area4;
+    background-color: lightblue;
+}
+.grid-5 {
+    grid-area: area5;
+    background-color: lightblue;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'area1 area1 area2'
+                         'area3 area4 area4'
+                         'area3 area5 area5';
+    
+    padding: 0.62em;
+    width: 43.75em;
+    margin: auto;
+    gap: 0.93em;
+
+}
+
+.grid-container > div {
+    padding: 1.25em 0;
+    
+}
+
+.nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.nav a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.top-nav {
+    display: block;
+    margin: auto;
+    width: 250px;
+    margin-bottom: 50px;
+}
