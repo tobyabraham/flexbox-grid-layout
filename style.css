@@ -6,10 +6,12 @@ body{
 
 p {
     color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
 }
 
 h1 {
     color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display';
 }
 
 .wrapper {
@@ -118,4 +120,13 @@ button {
     margin: auto;
     width: 250px;
     margin-bottom: 50px;
+}
+
+@media screen and (max-width: 350px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin: 5px 5px 5px 5px;
+    }
 }
