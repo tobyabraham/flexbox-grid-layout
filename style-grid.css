@@ -27,9 +27,9 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-areas: 'area1 area1 area2'
-                         'area3 area4 area4'
-                         'area3 area5 area5';
+    grid-template-areas: 'area1 area1 area1 area2 area2'
+                         'area3 area3 area4 area4 area4'
+                         'area3 area3 area5 area5 area5';
     
     padding: 0.62em;
     width: 43.75em;
