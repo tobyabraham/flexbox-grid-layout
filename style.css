@@ -69,7 +69,8 @@ button {
     color: hsl(31, 77%, 52%);
 }
 
-.sedan:active {
+.sedan:active,
+.sedan:hover {
     background-color: hsl(31, 77%, 52%);
     color: hsl(0, 0%, 95%);
     border: 2px solid hsl(0, 0%, 95%);
@@ -79,7 +80,8 @@ button {
     color: hsl(184, 100%, 22%);
 }
 
-.suv:active {
+.suv:active,
+.suv:hover {
     background-color: hsl(184, 100%, 22%);
     color: hsl(0, 0%, 95%);
     border: 2px solid hsl(0, 0%, 95%);
@@ -89,7 +91,8 @@ button {
     color: hsl(179, 100%, 13%);
 }
 
-.luxury:active {
+.luxury:active,
+.luxury:hover {
     background-color: hsl(179, 80%, 46%);
     color: hsl(0, 0%, 95%);
     border: 2px solid hsl(0, 0%, 95%);
